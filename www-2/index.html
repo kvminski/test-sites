@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" type="text/css" href="style/reset.css"/>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<meta charset="utf=8">
+<link rel="stylesheet" href="style/screen.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('#slideShim').cycle({ 
+			fx:     'fade',
+			speed:  1500,
+			timeout: 4000,
+			prev:   '#back',
+			next:   '#forward',
+			pause:  1,
+			pager:  '#pager'
+		});
+
+});
+</script>
+</head>
+
+<body>
+
+<header>
+
+<div class="main">
+
+<ul class="social">
+<li class="fb"><a href="index.html"><strong>Facebook</strong></a></li>
+<li class="twitter"><a href="index.html"><strong>Twitter</strong></a></li>
+<li class="mail"><a href="mailto:alvanea2@gmail.com"><strong>Email</strong></a></li>
+</ul>
+
+<nav>
+<ul class="menu">
+<li><a href="index.html">STRONA GŁÓWNA</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+<li><a href="oferta.html">OFERTA</a></li>
+<li><a href="kontakt.html">KONTAKT</a></li>
+</ul>
+</nav>
+
+<div class="logo" onclick="javascript: window.location.href='index.html'">
+</div>
+<h1>Proste i tanie strony internetowe na zamówienie.</h1>
+
+</div>
+
+</header>
+
+<div class="wrapper">
+
+	<!-- slider -->
+	<div id="metaContainer">
+	
+		<div class="whatsHot"></div>
+	
+		<div class="backLink"><a href="#" title="Poprzednie" id="back">Poprzednie</a></div>
+		
+		<div id="slideContainer">
+			<div id="slideShim">
+				<div class="hots">
+					<img style="position: absolute; top: -3px; left: -3px;" src="img/hot.png"/>
+					<a href="#"><img src="slides/slide-one.png" alt="Slide One" /></a>
+				</div>
+				<a href="#"><img src="slides/slide-two.png" alt="Slide Two" /></a>
+				<a href="http://www.premiumpixels.com"><img src="slides/slide-three.png" alt="Premum Pixels" /></a>
+			</div>
+		</div>
+		
+		<div class="forwardLink"><a href="#" title="Następne" id="forward">Następne</a></div>
+		
+		<center><div id="pager" class="clear"></div></center>
+	</div>
+
+		<div class="content">
+	<p><font size="5">W</font>itam! Nazywam się Bartosz "<font color="red">alvanea</font>" Kamiński, tworzę strony jako freelancer, czyli sam wykonuję projekty na zlecenie. Mam 19 lat i interesuję się tworzeniem stron internetowych. Nie jestem jeszcze na takim poziomie, na jakim chciałbym być dlatego też nie podejmuję się tworzenia bardziej zaawansowanych stron (np. stron sklepów, itp. - to zostawię osobom, którzy mają znacznie większą wiedzę ode mnie). Jestem perfekcjonistą, dlatego też tworzę strony z najwyższą starannością. Jeżeli potrzebujesz ładnie wyglądającej, prostej strony, np. wizytówki dla swojej małej firmy, napisz do mnie a postaram się nie zawieść Twoich oczekiwań.  </p>
+	<p>Potrafię obsługiwać się takimi językami jak html, css oraz znam podstawy php oraz js, co jest wystarczające do stworzenia ładnie wyglądającej oraz spełniającej swoje zadanie strony.</p>
+	<p>Zapraszam do zajrzenia na podstrony znajdujące się na witrynie.</p>
+		</div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+img { border:0;} 
+a img { border:0 } /* This stops link bordering on images */
+
+/***** Global Classes *****/
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clear { display: inline-block; }
+html[xmlns] .clear { display: block;}
+* html .clear { height: 1%;}
+
+.leftAlig { float:left; }
+.rightAlig { float:right; }
+
+.credit {font-size: 11px; color: #999; margin-top: 50px; text-align: center;}
+.credit a {color: #999;}
+
+/***** Demo specific *****/
+.wrapper { width:730px; margin: auto; padding-top: 40px;}
+#metaContainer {position: relative;}
+
+/* The left and right navigation buttons */
+#metaContainer .backLink, #metaContainer .forwardLink {position: absolute; top: 130px; width: 15px; height: 22px;}
+#metaContainer .backLink a, #metaContainer .forwardLink a {display: block; width: 22px; height: 42px; text-indent: -9999em; background-image: url(../img/nav-arrow-sprite.png); background-repeat: no-repeat; outline: 0;}
+#metaContainer .backLink {left: 59px;}
+#metaContainer .forwardLink {right: 64px;}
+#metaContainer .backLink a {background-position: 0 0; left: 0px;}
+#metaContainer .backLink a:hover, #metaContainer .backLink a:active  {background-position: 0 -43px; width: 30px; margin-left: -8px;}
+#metaContainer .forwardLink a {background-position: -96px 0;}
+#metaContainer .forwardLink a:hover, #metaContainer .forwardLink a:active  {background-position: -88px -43px; width: 30px!important; margin-right: -8px!important;}
+
+/* The Slider Container */
+#slideContainer { margin: 0 auto; width: 602px; height: 302px; padding: 20px 81px; z-index: 1;}
+
+/* The Pager */
+#pager {text-align: center; margin: -59px auto 0px; z-index: 100; width: 45px;}
+#pager a {display: block;text-indent: -5000px;width: 10px;height: 12px;background-image:url(../img/pager2.png);background-repeat: no-repeat; float: left; margin-right: 5px;}
+#pager a {background-position: 0 0;}
+#pager a:hover {background-position: 0 -12px;}
+#pager a:active {background-position: 0 -12px;}
+#pager a.activeSlide {background-position: 0 -23px;}
+#pager a.activeSlide:hover {background-position: 0 -23px;}
+#pager a.activeSlide:active {background-position: 0 -23px;}

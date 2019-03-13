@@ -1,0 +1,8 @@
+.wrapper li {cursor: pointer; margin: 20px; padding: 0; list-style: none; height: 200px; width: 200px; float: left; box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75); border: solid 1px black;}
+.wrapper li a {width: 200px; height: 50px; display: block; margin-top: 150px; text-decoration: none; font-family: Calibri; padding-left: 25px; padding-top: 10px;}
+.wrapper li a:active {color: white; text-decoration: none;}
+.wrapper li a:hover {color: white; text-decoration: none;}
+.wrapper li a:visited {color: white; text-decoration: none;}
+.wrapper li a:link {color: white; text-decoration: none;}
+
+.background_box {background-image: url('../images/bg.png'); z-index: 1000; width: 200px; height: 200px; position: absolute;}

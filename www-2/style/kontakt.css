@@ -1,0 +1,43 @@
+#formularz {
+        width:260px; /* ustawiamy szerokość formularza */
+        margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:20px; /* dodajemy margines górny naszego formularza */
+}
+
+#formularz label {
+    display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom:5px;/* dodajemy margines dolny */
+    font-weight:bold; /* pogrubiamy czcionkę */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+    font-size:12px; /* ustawiamy wielkość czcionki */
+    color: gray; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea,
+#formularz input {
+	padding:5px; /* dodajemy margines wewnątrz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:245px; /* ustalamy szerokość */
+}
+
+#formularz input#submit {
+	width:255px; /* ustalamy szerokość */
+	cursor:pointer; /* zmieniamy kursor */
+	margin-bottom:0px;/* resetujemy margines dolny */
+}
+
+#formularz p.copy {
+	color:#555555; /* ustawiamy kolor czcionki */
+	margin-bottom:0px; /* resetujemy margines dolny */
+	font-size:12px; /* ustawiamy rozmiar czcionki */
+	text-align: center; /* wyśrodkowywujemy tekst */
+}
+
+#formularz p.copy a {
+	color:#555555;/* ustawiamy kolor czcionki */ 
+	text-decoration: none; /* usuwamy podkreślenie linku */
+	font-weight:bold; /* pogrubiamy czcionkę */
+}

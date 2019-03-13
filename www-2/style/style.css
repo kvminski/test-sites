@@ -1,0 +1,30 @@
+html, body {margin: 0; padding: 0;}
+body {color: white; font-family: 'Calibri'; background: url("../images/content-image2.gif") repeat;}
+.social {height: 20px; float: right; width: auto; position: relative;}
+header {padding: 0; color: white; height: 175px; width: 100%; background-color: #1F1F1F; border-bottom: 1px solid #333333;}
+.main {margin: 50px auto; width: 900px; height: 80px;}
+.logo {height: 80px; width: 400px; background: url("../images/logo.gif") no-repeat;}
+nav {width: auto; height: 20px; float: right; padding: 30px 0px 0px 0px; position: relative; clear: right; font-family: 'Oswald';}
+.menu a, .menu a:visited, .menu a:hover{text-decoration: none; color: gray; margin: 20px 10px 10px 10px;}
+.menu a:hover {color: white; border-bottom: 3px solid white;}
+.menu a:active {color: white; border-bottom: 3px solid white;}
+.menu li {display: block; float: left; font-size: 17px;}
+
+.content p {margin-bottom: 15px; }
+.content {width: auto; height: auto;}
+.main h1 {margin-left: 50px;}
+
+.social { list-style:none; }
+.social li { display:inline; float:left; margin-left: 10px;}
+.social li a { display:block; width:32px; height:32px; position:relative;}
+.social li a strong { position:absolute; left:20px; top:-1px; text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+.social:hover li { opacity:0.2; }
+.social li { transition-property: opacity; transition-duration: 500ms; }
+.social li a strong { opacity:0; transition-property: opacity, top; transition-duration: 300ms;}
+.social li:hover { opacity:1; }
+.social li:hover a strong { opacity:1; top:-10px; }
+li.fb {background: url("../images/facebook.png");}
+li.twitter {background: url("../images/twitter.png");}
+li.mail {background: url("../images/twitter.png");}
+
+strong {color: white; font-family: 'Oswald';}
