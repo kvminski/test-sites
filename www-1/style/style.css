@@ -1,0 +1,162 @@
+body {
+background-color: #d93434;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 20%;
+    overflow: hidden;
+    background-color: #d93434;
+}
+
+li {
+    float: left;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f7f7f7;
+    color: #d93434;
+}
+
+.active {
+	background-color: #d93434;
+}
+
+#container {
+	width: 1000px;
+	height: 880px;
+	margin: auto;
+	background-color: #f7f7f7;
+	margin-top: 25px;
+	-webkit-box-shadow: 0px 1px 37px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 37px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 37px -2px rgba(0,0,0,0.75);
+}
+
+#content {
+	width: 700px;
+	height: 525px;
+	background-color: #fff;
+	margin: 25px;
+	border: 1px solid #d3d3d3;
+	box-sizing: border-box;
+	float: left;
+}
+
+#leftpanel1 {
+	width: 225px;
+	height: auto;
+	background-color: #fff;
+	margin: 25px 25px 25px 0px;
+	border: 1px solid #d3d3d3;
+	box-sizing: border-box;
+	float: left;
+}
+
+#leftpanel2 {
+	width: 225px;
+	height: auto;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#leftpanel3 {
+	width: 225px;
+	height: auto;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	box-sizing: border-box;
+	float: left;
+}
+
+.topka {
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.topka h1{
+	padding: 17px 0 0 10px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #d93434;
+}
+
+.topka i {
+	padding-right: 7px;
+}
+
+#leftpanel1 p {
+	padding: 15px;
+	color: #3d3d3d;
+	text-align: center;
+}
+
+#leftpanel2 p {
+	padding: 15px;
+	color: #3d3d3d;
+	text-align: center;
+}
+
+#leftpanel3 p {
+	padding: 15px;
+	color: #3d3d3d;
+	text-align: center;
+}
+
+#content p {
+	padding: 15px;
+	color: #3d3d3d;
+}
+
+#footer p {
+	padding: 15px;
+	color: #3d3d3d;
+}
+
+#content i{
+	padding-right: 7px;
+}
+
+a {
+	color: #d93434;
+	text-decoration: none;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px;
+    }
+
+#logo {
+	width: 1000px;
+	height: 200px;
+	margin: auto;
+	background: url('../logo.png');
+}
+
+#footer {
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+	float: left;
+	border-top: 1px solid #d3d3d3;
+}
